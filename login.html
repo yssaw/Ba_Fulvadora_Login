@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Login Page</title>
+	<link rel="stylesheet" type="text/css" href="style_login.css">
+</head>
+
+<body>
+	
+	<header>
+		<div class="intro-container">
+			<img class="intro-slides" src="images/1.png">
+			<img class="intro-slides" src="images/2.png">
+			<img class="intro-slides" src="images/3.png">
+		</div>
+
+	</header>
+	
+
+	<form name="myForm" onsubmit="return validateForm()" method="post">
+
+		<p id="error"></p>
+
+  		<label for="username">Username:</label>
+  		<input type="text" placeholder="Enter Username" id="username" name="username"><br>
+  		
+  		<label for="pwd">Password:</label>	
+  		<input type="password" placeholder="Enter Password" id="pwd" name="pwd"><br>
+
+  		<p class="fpwd">Forgot Password?</p>
+  		
+  		<input type="submit">
+	</form>
+	
+   <script type="text/javascript" src="scripts.js"></script>
+</body>
+</html>

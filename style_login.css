@@ -1,0 +1,60 @@
+body {
+	margin: 0;
+  background-color: #dcead9;
+}
+
+header {
+  float: left;
+}
+
+.intro-slides {
+	display: none;
+}
+
+img {
+  width: 92.9%;
+  margin: 0;
+}
+
+form {
+	position: absolute;
+	transform: translate(250% ,100%);
+	height: 30%;
+	width: 25%;
+	border: 3px solid #9BC1BC;
+	text-align: center;
+  float: right;
+}
+
+label {
+	font-size: 25px;
+	color: #167a78;
+}
+
+.fwpd {
+  color: #002500;
+  text-decoration: none;
+} 
+
+.fpwd:hover {
+  color: #167a78;
+}
+
+.fpwd:active {
+  text-decoration: underline;
+}
+
+input {
+	margin: 5px;
+	padding: 7px;
+}
+
+input:focus {
+	background-color: #C4DAD3;
+}
+
+button {
+	font-size: 20px;
+}
+
+
